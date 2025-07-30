@@ -31,3 +31,15 @@ https://openreview.net/forum?id=TvP3l8-j-K8.
 
 *Derek Hansen*, Ismael Mendoza, Runjing Liu, Ziteng Pang, Zhe Zhao, Camille Avestruz, Jeffrey Regier (2022). "Scalable Bayesian Inference for Detection and Deblending in Astronomical Images''. ICML 2022 Workshop on Machine Learning for Astrophysics."
 
+* Build site
+#+begin_src emacs-lisp
+  (defun dh/build-website ()
+    (interactive)
+    (call-interactively #'one-build)
+    (if (f-exists? "docs")
+        (f-delete "docs" t))
+    (f-copy "public" "docs"))
+#+end_src
+
+#+RESULTS:
+: dh/build-website

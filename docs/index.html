@@ -1,0 +1,34 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="stylesheet" type="text/css" href="/one.css" /><title>Derek Hansen</title></head><body><div id="sidebar-left" onclick="followSidebarLink()"><div><div>Pages</div></div><ul><li><a href="/">Derek Hansen</a></li><li><a href="/papers/">Publications</a></li></ul></div><div id="sidebar-main"></div><div id="sidebar-header"><svg id="hamburger" viewBox="0 0 24 24" onclick="sidebarShow()"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></svg><a href="/">Derek Hansen</a></div><div id="sidebar-content"><div id="sidebar"><ul><li><a href="/">Derek Hansen</a></li><li><a href="/papers/">Publications</a></li></ul></div><article><div class="title-empty"></div><div><p><p><img src="/BF42107A-1D95-428A-BA7E-7092E0232426_1_105_c.jpeg" alt="/BF42107A-1D95-428A-BA7E-7092E0232426_1_105_c.jpeg" /></p>
+</p>
+
+<ul><li><p>Senior Data Engineer at Northwell Health
+</p>
+</li>
+<li><p>Previously: Mathematical Statistican at FDA CDRH.
+</p>
+</li>
+<li><p>PhD in Statistics and Scientific Computing from University of Michigan
+</p>
+</li>
+</ul>
+
+<p><a href="https://linkedin.com/in/dereklhansen/">LinkedIn</a>
+<a href="https://github.com/dereklhansen">GitHub</a>
+<a href="/derek_cv.pdf">CV</a>
+</p>
+</div>
+<div class="nav"><a href="/papers/">NEXT</a></div></article></div></body><script>
+function sidebarShow() {
+  if (window.innerWidth < 481)
+    document.getElementById('sidebar-left').style.width = '75vw';
+  else {
+    document.getElementById('sidebar-left').style.width = 'min(300px, 34vw)';
+  }
+  document.getElementById('sidebar-main').setAttribute('onclick', 'sidebarHide()');
+  document.getElementById('sidebar-main').style.display = 'block';
+}
+function sidebarHide() {
+  document.getElementById('sidebar-left').style.width = '0';
+  document.getElementById('sidebar-main').style.display = 'none';
+}
+</script></html>
