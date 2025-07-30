@@ -8,7 +8,7 @@
 [[./assets/BF42107A-1D95-428A-BA7E-7092E0232426_1_105_c.jpeg]]
 
 - Senior Data Engineer at Northwell Health
-- Previously: Mathematical Statistican at FDA CDRH.
+- Previously: Mathematical Statistican at FDA CDRH
 - PhD in Statistics and Scientific Computing from University of Michigan
 
 [[https://linkedin.com/in/dereklhansen/][LinkedIn]]
