@@ -1,0 +1,33 @@
+* Derek Hansen :ATTACH:
+:PROPERTIES:
+:ONE: one-default-sidebar
+:CUSTOM_ID: /
+:ID:       1CE01FA8-F794-41D6-8F7F-C1A9FC9F9AF0
+:END:
+
+[[./assets/BF42107A-1D95-428A-BA7E-7092E0232426_1_105_c.jpeg]]
+
+- Senior Data Engineer at Northwell Health
+- Previously: Mathematical Statistican at FDA CDRH.
+- PhD in Statistics and Scientific Computing from University of Michigan
+
+[[https://linkedin.com/in/dereklhansen/][LinkedIn]]
+[[https://github.com/dereklhansen][GitHub]]
+[[./assets/derek_cv.pdf][CV]]
+
+* Publications
+:PROPERTIES:
+:ONE: one-default-sidebar
+:CUSTOM_ID: /papers/
+:END:
+*Derek Hansen*, *Danielle C. Maddix*, Shima Alizadeh, Gaurav Gupta, and Michael W. Mahoney (2024). "Learning Physical Models That Can Respect Conservation Laws." Physica D: Nonlinear Phenomena 457. https://doi.org/10.1016/j.physd.2023.133952.
+
+*Derek Hansen*, Danielle C. Maddix, Shima Alizadeh, Gaurav Gupta, Michael W. Mahoney (2023). "Learning Physical Models that Can Respect Conservation Laws". 40th International Conference on Machine Learning.
+https://openreview.net/forum?id=TvP3l8-j-K8.
+
+*Derek Hansen*, Brian Manzo, and Jeffrey Regier (2022). "Normalizing flows for knockoff-free controlled feature selection." Advances in Neural Information Processing Systems 36. https://openreview.net/forum?id=g2dXxjD9Ucv.
+** Workshops
+*Derek Hansen*, Danielle C. Maddix, Shima Alizadeh, Gaurav Gupta, and Michael W. Mahoney (2023). "Learning Physical Models that Can Respect Conservation Laws". ICLR 2023 Workshop on Physics for Machine Learning.
+
+*Derek Hansen*, Ismael Mendoza, Runjing Liu, Ziteng Pang, Zhe Zhao, Camille Avestruz, Jeffrey Regier (2022). "Scalable Bayesian Inference for Detection and Deblending in Astronomical Images''. ICML 2022 Workshop on Machine Learning for Astrophysics."
+

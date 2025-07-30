@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="stylesheet" type="text/css" href="/one.css" /><title>Publications</title></head><body><div id="sidebar-left" onclick="followSidebarLink()"><div><div>Pages</div></div><ul><li><a href="/">Derek Hansen</a></li><li><a href="/papers/">Publications</a></li></ul></div><div id="sidebar-main"></div><div id="sidebar-header"><svg id="hamburger" viewBox="0 0 24 24" onclick="sidebarShow()"><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"></path></svg><a href="/">Derek Hansen</a></div><div id="sidebar-content"><div id="sidebar"><ul><li><a href="/">Derek Hansen</a></li><li><a href="/papers/">Publications</a></li></ul></div><article><div class="title"><h1>Publications</h1></div><div><p><b>Derek Hansen</b>, <b>Danielle C. Maddix</b>, Shima Alizadeh, Gaurav Gupta, and Michael W. Mahoney (2024). &quot;Learning Physical Models That Can Respect Conservation Laws.&quot; Physica D: Nonlinear Phenomena 457. <a href="https://doi.org/10.1016/j.physd.2023.133952">https://doi.org/10.1016/j.physd.2023.133952</a>.
+</p>
+
+<p><b>Derek Hansen</b>, Danielle C. Maddix, Shima Alizadeh, Gaurav Gupta, Michael W. Mahoney (2023). &quot;Learning Physical Models that Can Respect Conservation Laws&quot;. 40th International Conference on Machine Learning.
+<a href="https://openreview.net/forum?id=TvP3l8-j-K8">https://openreview.net/forum?id=TvP3l8-j-K8</a>.
+</p>
+
+<p><b>Derek Hansen</b>, Brian Manzo, and Jeffrey Regier (2022). &quot;Normalizing flows for knockoff-free controlled feature selection.&quot; Advances in Neural Information Processing Systems 36. <a href="https://openreview.net/forum?id=g2dXxjD9Ucv">https://openreview.net/forum?id=g2dXxjD9Ucv</a>.
+</p>
+</div>
+<div><h2 id="one-66f28a4246">Workshops</h2><div><p><b>Derek Hansen</b>, Danielle C. Maddix, Shima Alizadeh, Gaurav Gupta, and Michael W. Mahoney (2023). &quot;Learning Physical Models that Can Respect Conservation Laws&quot;. ICLR 2023 Workshop on Physics for Machine Learning.
+</p>
+
+<p><b>Derek Hansen</b>, Ismael Mendoza, Runjing Liu, Ziteng Pang, Zhe Zhao, Camille Avestruz, Jeffrey Regier (2022). &quot;Scalable Bayesian Inference for Detection and Deblending in Astronomical Images&apos;&apos;. ICML 2022 Workshop on Machine Learning for Astrophysics.&quot;
+</p>
+</div>
+</div>
+<div class="nav"><a href="/">PREV</a></div></article></div></body><script>
+function sidebarShow() {
+  if (window.innerWidth < 481)
+    document.getElementById('sidebar-left').style.width = '75vw';
+  else {
+    document.getElementById('sidebar-left').style.width = 'min(300px, 34vw)';
+  }
+  document.getElementById('sidebar-main').setAttribute('onclick', 'sidebarHide()');
+  document.getElementById('sidebar-main').style.display = 'block';
+}
+function sidebarHide() {
+  document.getElementById('sidebar-left').style.width = '0';
+  document.getElementById('sidebar-main').style.display = 'none';
+}
+</script></html>
