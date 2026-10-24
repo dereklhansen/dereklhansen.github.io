@@ -20,6 +20,8 @@
 :ONE: one-default-sidebar
 :CUSTOM_ID: /papers/
 :END:
+Patel, Hardik, Salvatore Crusco, *Derek Hansen*, et al. “A Systematic Review and Meta-Analysis of Externally Validated Epic Clinical Decision Support Tools.” Journal of General Internal Medicine. https://doi.org/10.1007/s11606-026-10381-y.
+
 *Derek Hansen*, *Danielle C. Maddix*, Shima Alizadeh, Gaurav Gupta, and Michael W. Mahoney (2024). "Learning Physical Models That Can Respect Conservation Laws." Physica D: Nonlinear Phenomena 457. https://doi.org/10.1016/j.physd.2023.133952.
 
 *Derek Hansen*, Danielle C. Maddix, Shima Alizadeh, Gaurav Gupta, Michael W. Mahoney (2023). "Learning Physical Models that Can Respect Conservation Laws". 40th International Conference on Machine Learning.
